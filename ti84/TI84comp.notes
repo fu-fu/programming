@@ -1,0 +1,24 @@
+A=1: Address
+2 change
+3 on
+4 off
+5 check
+6 and - not implmented
+7 or - not implmented
+8 nor - not implmented
+666 - stop
+First line: dedicated for system (94 bits) ####Defined in micro code
+	Reg1: 1-4
+	Reg2: 5-8
+	OUT:  9-12
+	Flag: 13-14
+	Program Counter: 15-27
+	Undefined: 28-94
+OPC codes:				#Total 1457 nytes .: address sizeing:2^11=2048 (11bits) 0000 8421
+1: load X nyte into reg1
+2: load X nyte into reg2
+3: Store reg2 to nyte
+4: AND R1,R2 > R2
+5: OR R1,R2 > R2
+6: Nor R1 > R2
+7: 
