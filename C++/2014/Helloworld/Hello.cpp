@@ -1,5 +1,7 @@
+using namespace std;
 #include <iostream>
-void main()
+
+int main()
 {
 /*	printf("Hello World! /m"); */
 	cout << "Hello World!\n";
